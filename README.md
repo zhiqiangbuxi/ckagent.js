@@ -5,8 +5,6 @@
 </head>
 <body>
 	<h3>
-		# ckagent.js
-		<br/>
 		javascript 检测浏览器版本、内核、操作系统
 	</h3>
 	<h3>
@@ -17,8 +15,12 @@
 			1、C.browser(k,v)
 		</h4>
 		<div>
-		此函数有两个可选参数如果不传任何参数即:C.browser(),函数将返回一个包含当前浏览器名称和版本的json对象.example:{“browser”:”ie”,”version”:”7.0″}<br/>
-		如果传入一个参数即:C.browser(‘ie’),将检测当前浏览器名称是否正确返回一个布尔值如果传入两个参数即:C.browser(‘ie’,’7′),将检测当前浏览器的名称和版本号只有二者都正确的时候才返回true ,反之返回false.
+		此函数有两个可选参数如果不传任何参数即:
+		<br/>
+		C.browser(),函数将返回一个包含当前浏览器名称和版本的json对象.example:{“browser”:”ie”,”version”:”7.0″}<br/>
+		如果传入一个参数即:C.browser(‘ie’),将检测当前浏览器名称是否正确返回一个布尔值
+		<br/>
+		如果传入两个参数即:C.browser(‘ie’,’7′),将检测当前浏览器的名称和版本号只有二者都正确的时候才返回true ,反之返回false.
 		</div>
 	</p>
 	<p>
